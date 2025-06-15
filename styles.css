@@ -1,0 +1,36 @@
+:root {
+    --primary-colour: #023047;
+    --secondary-colour: #219EBC;
+    --background-colour: #8ECAE6;
+    --accent-colour: #FFB703;
+    --accent-colour2: #FB8500;
+}
+* {
+    background-color: var(--background-colour);
+    box-sizing: border-box;
+}
+.title {
+    text-align: center;
+    color: var(--accent-colour2);
+    font-size: 32px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.recipes-flow {
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+}
+.recipe-card {
+    background-color: var(--accent-colour2);
+    color: var(--accent-colour2);
+    text-align: center;
+    display: inline-block;
+    align-items: center;
+    border: 2px solid var(--accent-colour2);
+    padding: 12px;
+
+}
+ul {
+    display: inline-block;
+    align-items: center;
+}
